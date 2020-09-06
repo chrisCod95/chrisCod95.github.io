@@ -10143,8 +10143,12 @@ section.resume-section .resume-section-content {
 }
 
 .project img {
-  border-radius: 15px;
+  border-radius: 20px;
   border: 5px solid #9CC8A4;
+}
+
+.project .budgety-img {
+  max-block-size: 200px;
 }
 
 .language-icons {
@@ -10180,4 +10184,9 @@ section.resume-section .resume-section-content {
 }
 .social-icons .social-icon:hover {
   background-color: #48A684;
+}
+
+.edu-img {
+  border-radius: 100%;
+  max-block-size: 100px;
 }
